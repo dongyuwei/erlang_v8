@@ -26,7 +26,7 @@ Subversion, and Python 2.6-2.7 (needed by GYP) are required to build v8.
 
 Build using make:
 
-    make
+    make # only v8.5.5.149 branch works as expected, see https://github.com/strange/erlang_v8/issues/3
 
 GYP is not compatible with Python3. If `python3` is the default, you can
 symlink `python2` to `~/bin` and set your path temporarily before compiling:
